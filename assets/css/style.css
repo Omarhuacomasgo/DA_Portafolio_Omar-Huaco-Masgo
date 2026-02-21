@@ -226,3 +226,18 @@ a { color: inherit; text-decoration: none; }
   .about-grid { grid-template-columns: 1fr; gap: 2rem; }
   .timeline-item { grid-template-columns: 1fr; gap: 0.5rem; }
 }
+
+/* === FOTO DE PERFIL === */
+.hero-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 4px solid var(--clr-primary);
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+
+
